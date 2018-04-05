@@ -23,7 +23,8 @@ var userDiagnosticCenterSchema =  require(path.resolve('./schema/userDiagnosticC
 var userPharmacySchema =  require(path.resolve('./schema/userPharmacists.js'));
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/healthledger');
+//mongoose.connect('mongodb://localhost/healthledger');
+ mongoose.connect('mongodb://healthledger:healthledger@ds235169.mlab.com:35169/healthledger');
 
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
