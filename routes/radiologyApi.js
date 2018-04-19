@@ -53,7 +53,7 @@ radiologyCollection.find().exec(function (err, data) {
             })
         })
     } else {
-        console.log("radiology data already found")
+        // console.log("radiology data already found")
     }
 })
 

@@ -78,7 +78,7 @@ medicalCollection.find().exec(function (err, data) {
             })
         })
     } else {
-        console.log("Imminization data already found")
+        // console.log("Imminization data already found")
     }
 })
 

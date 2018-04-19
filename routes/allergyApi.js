@@ -41,7 +41,7 @@ allergyCollection.find().exec(function (err, data) {
             })
         })
     } else {
-        console.log("Allergy data already found")
+        // console.log("Allergy data already found")
     }
 })
 

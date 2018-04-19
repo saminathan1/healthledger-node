@@ -40,7 +40,7 @@ UserGroupCollection.find().exec(function (err, groups) {
             })
         })
     } else {
-        console.log("categories already found")
+        // console.log("categories already found")
     }
 })
 
@@ -70,7 +70,7 @@ userDoctorCollection.find().exec(function (err, groups) {
             })
         })
     } else {
-        console.log("categories already found")
+        // console.log("categories already found")
     }
 })
 
@@ -99,7 +99,7 @@ userPharmacyCollection.find().exec(function (err, groups) {
             })
         })
     } else {
-        console.log("categories already found")
+        // console.log("categories already found")
     }
 })
 
@@ -128,7 +128,7 @@ userDiagnosticCenterCollection.find().exec(function (err, groups) {
             })
         })
     } else {
-        console.log("categories already found")
+        // console.log("categories already found")
     }
 })
 

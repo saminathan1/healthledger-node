@@ -54,7 +54,7 @@ laboratoryCollection.find().exec(function (err, data) {
             })
         })
     } else {
-        console.log("immunization data already found")
+        // console.log("immunization data already found")
     }
 })
 
