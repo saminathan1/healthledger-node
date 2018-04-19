@@ -75,8 +75,8 @@ app.post('/get/radiology', require('./routes/radiologyApi').getRadiologyData);
 app.post('/store/vitalsigns', require('./routes/vitalsignsApi').storeVitalsignsData);
 app.post('/get/vitalsigns', require('./routes/vitalsignsApi').getVitalsignsData);
 
-app.post('/ethereum/store/data', require('./routes/ethereum').storePatient);
-app.post('/ethereum/retrieve/data', require('./routes/ethereum').retrievePatient);
+// app.post('/ethereum/store/data', require('./routes/ethereum').storePatient);
+// app.post('/ethereum/retrieve/data', require('./routes/ethereum').retrievePatient);
 
 
 app.listen(app.get('port'), () => {
